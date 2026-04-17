@@ -1,0 +1,27 @@
+=========================================
+         SHORT SYSTEM REPORT             
+=========================================
+Date: Sun Apr 12 06:55:45 PM EDT 2026
+Hostname: kali
+
+--- OS ---
+NAME="Kali GNU/Linux"
+VERSION="2025.4"
+--- Kernel ---
+6.16.8+kali-amd64
+--- CPU ---
+Model name:                              13th Gen Intel(R) Core(TM) i7-1365U
+--- RAM ---
+               total        used        free      shared  buff/cache   available
+Mem:           5.5Gi       2.8Gi       2.0Gi        41Mi       1.0Gi       2.7Gi
+Swap:          953Mi          0B       953Mi
+--- Disk ---
+Filesystem      Size  Used Avail Use% Mounted on
+udev            2.7G     0  2.7G   0% /dev
+tmpfs           569M  980K  568M   1% /run
+/dev/sda1        79G   17G   58G  23% /
+tmpfs           2.8G  4.0K  2.8G   1% /dev/shm
+tmpfs           2.8G  272K  2.8G   1% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           569M  104K  569M   1% /run/user/1000
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
