@@ -1,8 +1,7 @@
 #!/bin/bash
+
 # This is the main script that ties everything together. It runs the hardware  and software audit scripts, builds both reports, emails them as .txt file attachments, and copies them to a remote machine over SSH.
-#
-# Run it manually like this:   ./main_audit.sh
-# For cron/automated use:      ./main_audit.sh --auto
+# Run it manually like this: './main_audit.sh' , for cron/automated use: './main_audit.sh --auto'
 # The first time you run it on any machine it will ask you a few questions (email, remote machine IP, etc.) and save your answers to audit.conf.
 # Every run after that — including cron — just loads that file silently.
 
@@ -55,9 +54,7 @@ REMOTE_HOST=""
 REMOTE_DIR=""
 
 
-# ---------------------------------------------------------------------------
 # HELPER FUNCTIONS
-# ---------------------------------------------------------------------------
 
 # Writes an error message with a timestamp to the error log.
 log_error() {
@@ -76,10 +73,7 @@ print_step() {
     [[ "$MODE" == "manual" ]] && echo "$1"
 }
 
-
-# ---------------------------------------------------------------------------
 # DIRECTORY CHECK
-# ---------------------------------------------------------------------------
 
 # Before doing anything, make sure the audit directory exists and we can
 # write to it. If it doesn't exist we tell the user exactly what to run.
