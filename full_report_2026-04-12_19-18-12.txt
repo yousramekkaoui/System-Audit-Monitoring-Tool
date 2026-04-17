@@ -1,0 +1,7 @@
+=========================================
+        FULL SYSTEM AUDIT REPORT         
+=========================================
+Date: Sun Apr 12 07:18:12 PM EDT 2026
+Hostname: kali
+
+--- HARDWARE AUDIT ---
